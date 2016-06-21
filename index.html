@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title>RuneStock</title>
+		<title>RuneStock by Shed</title>
 
 		<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/smoothness/jquery-ui.css" />
     <link rel="stylesheet" href="css/foundation.css" />
@@ -12,15 +12,11 @@
 		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="   crossorigin="anonymous"></script>
 		<script src="https://code.highcharts.com/stock/highstock.js"></script>
 		<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-
 		<script src="js/app.js"></script>
-
 		<script type="text/javascript">
-			fetchData("Zul-andra teleport", pData, bData, sData);
+			fetchData("Old school bond", pData, bData, sData);
 		</script>
-
 		<script src="js/foundation.min.js"></script>
-
 		<script>
 			$(document).foundation();
 		</script>
@@ -30,12 +26,13 @@
 		<div class="row">
       <div class="large-12 columns">
 
-				<div class="ui-widget large-12 columns" style="margin-left: 35px; margin-top: 40px">
+				<div class="ui-widget large-12 columns" style="margin-left: 40px; margin-top: 40px">
 					<div class="small-10 columns">
 				  	<input id="tags" type="text" placeholder="Search for an oldschool item...">
 					</div>
+
 					<div class="small-2 columns">
-						<button class="button tiny secondary" style="margin-top: 2px" onclick="updateChartData($('#tags').val())">Get Chart</button>
+						<button class="button tiny secondary" style="margin-top: 2px" onclick="updateChartData($('#tags').val())">Search</button>
 					</div>
 				</div>
 
@@ -43,6 +40,12 @@
 
 			</div>
 		</div>
+
+
+
 	</body>
 
+	<!-- Start of SimpleHitCounter Code -->
+	<div align="center"><a href="http://www.simplehitcounter.com" target="_blank"><img src="http://simplehitcounter.com/hit.php?uid=2124785&f=16777215&b=0" border="0" height="18" width="83" alt="web counter"></a><br><a href="http://www.simplehitcounter.com" target="_blank" style="text-decoration:none;">web counter</a></div>
+	
 </html>
