@@ -281,7 +281,10 @@
       			$('#container').highcharts(options,
       				function (chart) { // on complete
       				chart.renderer.image('http://services.runescape.com/m=itemdb_oldschool/1484566256197_obj_big.gif?id='+getItem(item,"id"), 60, -13, 96, 96).add();
-              chart.setTitle({text: item}, { text: 'Current price: '+ numberWithCommas(currentPrice) + ' gp'});
+              chart.setTitle({
+               useHTML: true,
+               text: item}, { text: 'Current price: '+ numberWithCommas(currentPrice) + ' gp |' + 'Source: <a href="https://www.ge-tracker.com/item/' + getItem(item,"id") + '">Ge-Tracker</a>' }
+                            );
       					});
       			Highcharts.setOptions({
       				global: {useUTC: false}
