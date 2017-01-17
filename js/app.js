@@ -28,6 +28,7 @@
         "href": 'https://rsbuddy.com/exchange'
     },
     "title": {
+        "useHTML": true,
         "align": 'left',
         "x": 149,
         "color": '#000',
@@ -35,6 +36,7 @@
         "y": 10
     },
     "subtitle": {
+        "useHTML": true,
         "floating": true,
         "align": 'left',
         "x": 149,
