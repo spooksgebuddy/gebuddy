@@ -280,7 +280,7 @@
           $(function () {
       			$('#container').highcharts(options,
       				function (chart) { // on complete
-      				chart.renderer.image('http://services.runescape.com/m=itemdb_oldschool/5227_obj_big.gif?id='+getItem(item,"id"), 60, -13, 96, 96).add();
+      				chart.renderer.image('http://services.runescape.com/m=itemdb_oldschool/1484566256197_obj_big.gif?id='+getItem(item,"id"), 60, -13, 96, 96).add();
               chart.setTitle({text: item}, { text: 'Current price: '+ numberWithCommas(currentPrice) + ' gp'});
       					});
       			Highcharts.setOptions({
