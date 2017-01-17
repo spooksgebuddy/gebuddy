@@ -98,6 +98,10 @@
           "count" : 3,
           "text" : '3D'
       }, {
+          "type" : 'month',
+          "count" : 3,
+          "text" : 'M'
+      }, {
             "type" : 'all',
             "count" : 1,
             "text" : 'All'
