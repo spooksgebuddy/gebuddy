@@ -78,7 +78,7 @@
         "enabled": true
     },
     "rangeSelector" : {
-      //  "selected" :0, // can't get this to work
+        "selected" : 1, // can't get this to work, (lemme try)
         "inputEnabled": false,
         "buttonPosition": {x:160,y:50 },
         "allButtonsEnabled": true,
