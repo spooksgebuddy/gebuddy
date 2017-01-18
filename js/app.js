@@ -232,11 +232,11 @@
 
   function fetchData(item, pData, bData, sData) {
                                   //ss:mm:hh:dd
-      startTime = Date.now() - 1000*60*60*24*7*2; // two weeks ago
+      startTime = Date.now() - 1000*60*60*24*365; // 1 year ago
 
       var xhr = new XMLHttpRequest();
       xhr.onreadystatechange = process;
-  		xhr.open("GET", "https://api.rsbuddy.com/grandExchange?i=" + getItem(item,"id") + "&a=graph&g=60&start=" + startTime.toString(), true);
+  		xhr.open("GET", "https://api.rsbuddy.com/grandExchange?i=" + getItem(item,"id") + "&a=graph&g=30&start=" + startTime.toString(), true);
   		xhr.send();
 
       pData.length = 0;
