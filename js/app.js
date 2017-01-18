@@ -232,7 +232,7 @@
 
   function fetchData(item, pData, bData, sData) {
                                   //ss:mm:hh:dd
-      startTime = Date.now() - 1000*60*60*24*365; // 1 year ago
+      startTime = Date.now() - 1000*60*60*24*92; // 92 days ago
 
       var xhr = new XMLHttpRequest();
       xhr.onreadystatechange = process;
