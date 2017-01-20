@@ -177,7 +177,7 @@
     },
     "series": [
       {
-        "type": 'line',
+        "type": 'candlestick',
         "name": "Prices",
         "data": pData
       },{
