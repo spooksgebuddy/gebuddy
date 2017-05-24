@@ -282,7 +282,7 @@
           $(function () {
       			$('#container').highcharts(options,
       				function (chart) { // on complete
-      				chart.renderer.image('http://services.runescape.com/m=itemdb_oldschool/1484566256197_obj_big.gif?id='+getItem(item,"id"), 60, -13, 96, 96).add();
+      				chart.renderer.image('https://rsbuddy.com/items/' + getItem(item,"id") + '.png', 60, -13, 96, 96).add();
               chart.setTitle({ text: item}, { useHTML: true, text: 'Current price: '+ numberWithCommas(currentPrice) + ' gp | ' + '<a href="https://www.ge-tracker.com/item/' + getItem(item,"id") + '" target="_blank" >Ge-Tracker</a>' }
                             );
       					});
